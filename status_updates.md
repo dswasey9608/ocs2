@@ -1,3 +1,9 @@
+**Table of Contents**
+- [4/26/23](#42623)
+  - [OCS2 Setup](#ocs2-setup)
+- [4/27/23](#42723)
+
+
 # 4/26/23
 ## OCS2 Setup
 Added `CATKIN_IGNORE` files to the following locations. Most were due to additional dependencies
@@ -11,3 +17,5 @@ ocs2_robotic_examples/ocs2_legged_robot_ros/CATKIN_IGNORE
 ocs2_robotic_examples/ocs2_mobile_manipulator/CATKIN_IGNORE
 ocs2_robotic_examples/ocs2_mobile_manipulator_ros/CATKIN_IGNORE
 ```
+
+# 4/27/23
