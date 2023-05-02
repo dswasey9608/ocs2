@@ -50,6 +50,8 @@ TargetTrajectories::TargetTrajectories(scalar_array_t desiredTimeTrajectory, vec
   assert(stateTrajectory.size() == timeTrajectory.size());
   if (!inputTrajectory.empty()) {
     assert(inputTrajectory.size() == timeTrajectory.size());
+  } else {
+    inputTrajectory.resize(timeTrajectory.size());
   }
 }
 
